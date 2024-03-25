@@ -17,10 +17,10 @@ const Navbar = () => {
             <div className={styles.logo}>GabriHell</div>
             <div className={styles.links}>
                 <ThemeToggle/>
-                <Link href="/">Início</Link>
-                <Link href="/">Ações Sociais</Link>
-                <Link href="/">Sobre Nós</Link>
-                <Link href="/">Fale Conosco</Link>
+                <Link href="/" className={styles.link}>Início</Link>
+                <Link href="/" className={styles.link}>Ações Sociais</Link>
+                <Link href="/" className={styles.link}>Sobre Nós</Link>
+                <Link href="/" className={styles.link}>Fale Conosco</Link>
                 <AuthLinks/>
             </div>
         </div>
