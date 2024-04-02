@@ -8,7 +8,9 @@ const CategoryList = () => {
         <div className= {styles.container}>
             <h1 className={styles.title}>Categorias Populares</h1>
             <div className={styles.categories}>
-                    <Link href="/blog?cat=style" className={`${styles.category} ${styles.style}`}>
+                    <Link 
+                        href="/blog?cat=style" 
+                        className={`${styles.category} ${styles.style}`}>
                         <Image 
                         src="/style.png" 
                         alt="" 
@@ -18,7 +20,9 @@ const CategoryList = () => {
                         />
                         style
                     </Link>
-                    <Link href="/blog" className={`${styles.category} ${styles.fashion}`}>
+                    <Link 
+                        href={`/blog`} 
+                        className={`${styles.category} ${styles.fashion}`}>
                         <Image 
                         src="/fashion.png" 
                         alt="" 
@@ -28,7 +32,9 @@ const CategoryList = () => {
                         />
                         fashion
                     </Link>
-                    <Link href="/blog" className={`${styles.category} ${styles.food}`}>
+                    <Link 
+                        href={`/blog`} 
+                        className={`${styles.category} ${styles.food}`}>
                         <Image 
                         src="/food.png" 
                         alt="" 
@@ -38,7 +44,9 @@ const CategoryList = () => {
                         />
                         food
                     </Link>
-                    <Link href="/blog" className={`${styles.category} ${styles.travel}`}>
+                    <Link 
+                        href={`/blog`} 
+                        className={`${styles.category} ${styles.travel}`}>
                         <Image 
                         src="/travel.png" 
                         alt="" 
@@ -48,7 +56,9 @@ const CategoryList = () => {
                         />
                         travel
                     </Link>
-                    <Link href="/blog" className={`${styles.category} ${styles.culture}`}>
+                    <Link 
+                        href={`/blog`} 
+                        className={`${styles.category} ${styles.culture}`}>
                         <Image 
                         src="/culture.png" 
                         alt="" 
@@ -58,7 +68,9 @@ const CategoryList = () => {
                         />
                         culture
                     </Link>
-                    <Link href="/blog" className={`${styles.category} ${styles.coding}`}>
+                    <Link 
+                        href={`/blog`}
+                        className={`${styles.category} ${styles.coding}`}>
                         <Image 
                         src="/coding.png" 
                         alt="" 
