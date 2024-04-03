@@ -78,6 +78,14 @@ a {
 
 @media screen and (max-width: 640px) {
     .wrapper {
-        max-width: 478;
+        max-width: 475px;
     }
+}
+
+.ql-container{
+    font-size: 28px !important;
+}
+
+.quill > .ql-container.ql-blubble > .ql.editor.ql-blank::before {
+    color: #b3b3b1;
 }
