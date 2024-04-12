@@ -15,7 +15,12 @@ const Navbar = () => {
                 <Image src="/youtube.png" alt="youtube" width={24} height={24}/>
             </div>
             <div className={styles.logo}>
+<<<<<<< HEAD
                 <Image src="/iiabreu.png" alt="Logo" width={76} height={50}/>
+=======
+            <Image src="/p1.jpeg" alt="" fill />
+            {/* <div className={styles.logo}>IIAbreu</div> */}
+>>>>>>> 8981641002e590917273aff8933ef93ebb194966
             </div>
             <div className={styles.links}>
                 <ThemeToggle/>

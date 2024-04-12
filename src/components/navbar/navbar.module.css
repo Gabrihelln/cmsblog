@@ -12,10 +12,11 @@
 }
 
 .logo {
-    flex: 1;
-    text-align: center;
-    font-size: 36px;
-    font-weight: bold;
+    /* flex: 1;
+    text-align: center; */
+    width: 2px;
+    height: 2px;
+    /* font-weight: bold; */
 }
 
 .links {

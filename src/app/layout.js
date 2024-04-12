@@ -10,8 +10,13 @@ import AuthProvider from "@/providers/AuthProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+<<<<<<< HEAD
   title: "Insituto Inaldo Abreu",
   description: '"Os Voluntários da Paz"',
+=======
+  title: "Instituto Inaldo Abreu",
+  description: "Os Voluntários da Paz",
+>>>>>>> 8981641002e590917273aff8933ef93ebb194966
 };
 
 export default function RootLayout({ children }) {
