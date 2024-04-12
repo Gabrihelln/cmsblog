@@ -8,10 +8,10 @@ const Footer = () => {
         <div className= {styles.container}>
             <div className={styles.info}>
                 <div className={styles.logo}>
-                    <Image src="/logo.png" alt="" width={50} height={50}/>
-                    <h1 className={styles.logoText}>GabriHell</h1>
+                    <Image src="/iiabreu.png" alt="" width={76} height={50}/>
+                    <h1 className={styles.logoText}>Instituto Inaldo Abreu</h1>
                 </div>
-                <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil qui quisquam voluptatem libero dolorem laudantium eaque in fugiat laborum.</p>
+                <p className={styles.desc}>"Aquele pois, que sabe fazer o bem e não faz, comete pecado"- Tiago 4:17</p>
                 <div className={styles.icons}>
                     <Image src="/facebook.png" alt="" width={18} height={18}/>
                     <Image src="/instagram.png" alt="" width={18} height={18}/>
@@ -27,13 +27,13 @@ const Footer = () => {
                     <Link href="/">Sobre Nós</Link>
                     <Link href="/">Fale Conosco</Link>
                 </div>
-                <div className={styles.list}>
+                {/* <div className={styles.list}>
                     <span className={styles.listTitle}>Categorias</span>
                     <Link href="/">Style</Link>
                     <Link href="/">Fashion</Link>
                     <Link href="/">Food</Link>
                     <Link href="/">Travel</Link>
-                </div>
+                </div> */}
                 <div className={styles.list}>
                     <span className={styles.listTitle}>Social</span>
                     <Link href="/">Facebook</Link>
